@@ -1,0 +1,68 @@
+html, body
+{
+    margin: 0;
+    width: 100%;
+}
+
+.list
+{
+    background-color: rgb(182, 255, 255);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.news
+{
+    border-bottom: 2px solid;
+    padding: 10px;
+}
+
+p
+{
+    font-weight: 700;
+    font-size: x-large;
+    margin: 5px
+}
+
+.btn-1,.btn-2,.btn-3
+{
+    text-align: center;
+}
+
+button
+{
+    background-color: rgb(19, 173, 19);
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;  
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+.blocknews-1,.blocknews-2,.blocknews-3
+{
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    top: 25%;
+    text-align: left;
+    background-color: rgb(231, 231, 115);
+    margin-left: 10%;
+    padding: 10px;
+    
+}
+
+.news:hover
+{
+    background-color: rgb(248, 94, 94);
+}
+
+.blocknews-1 p,.blocknews-2 p,.blocknews-3 p
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
